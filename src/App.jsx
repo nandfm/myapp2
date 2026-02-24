@@ -1,13 +1,15 @@
-
-import './App.css'
+import Card from "./components/Card2";
+import "./App.css";
 
 function App() {
-
   return (
     <>
-    oi
+      oi
+      <Card title={"sedans"} />
+      <Card title={"suvs"} />
+      <Card title={"luxury"} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
