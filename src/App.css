@@ -1,0 +1,13 @@
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
